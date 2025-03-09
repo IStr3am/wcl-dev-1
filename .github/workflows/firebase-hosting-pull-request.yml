@@ -17,5 +17,5 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
-          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_WCL_DEV_1 }}
+          firebaseServiceAccount: ${{firebase-adminsdk-fbsvc@wcl-dev-1.iam.gserviceaccount.com}}
           projectId: wcl-dev-1
